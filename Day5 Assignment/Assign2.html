@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<script type="text/javascript">
+ 
+class User{
+  constructor(name,age,email){
+     this.name= name;
+     this.age= age;
+     this.email= email;
+   }
+   login(){
+     console.log(`${this.name} has Login`)
+   }
+   logout(){
+     console.log(`${this.name} has Logout`)
+   }
+   
+}
+ 
+class Moderator extends User{
+  constructor(name,age,email,lucoins){
+     super(name,age,email)
+     this.lucoins = 0;
+  }
+   addcoins(coins){
+     this.lucoins++;
+   removecoins(coins)
+     this.lucoins-=user1;
+     console.log(`${this.name} has the ${this.lucoins} coins.`)
+   }
+     
+}
+
+class Admin extends Moderator{
+  constructor(name,age,email,lucoins,course){
+     super(name,age,email,lucoins)
+     this.course=[];
+  }addcourse(){
+    this.course.push(course)
+    console.log(`${course}`)
+    
+  } removecourse(){
+    this.course.
+    console.log(`${course}`)
+  }
+}
+
+
+let user1= new User("Sarita",20,"saritamaharana22@gmail.com")
+let user2= new User("Sapna",20,"sapna@gmail.com")
+user1.login();
+user1.logout()
+user1.addcoins();
+
+</script>
+  </body>
+</html>
