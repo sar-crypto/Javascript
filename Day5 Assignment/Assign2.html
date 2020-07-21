@@ -8,7 +8,6 @@
 </head>
 <body>
 <script type="text/javascript">
- 
 class User{
   constructor(name,age,email){
      this.name= name;
@@ -42,12 +41,12 @@ class Admin extends Moderator{
   constructor(name,age,email,lucoins,course){
      super(name,age,email,lucoins)
      this.course=[];
-  }addcourse(){
+  }addcourse(course){
     this.course.push(course)
     console.log(`${course}`)
     
-  } removecourse(){
-    this.course.
+  } removecourse(course){
+    this.course.pop()
     console.log(`${course}`)
   }
 }
