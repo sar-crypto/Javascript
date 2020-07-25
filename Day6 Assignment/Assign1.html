@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Assignment 1</title>
+  </head>
+  <body >
+   <h1 id="bgc">Hey guys.</h1>
+    <script type= "text/javascript">
+      
+/*Write a program that will iterate over an array of colors and change the background of the page after 5 seconds.*/
+function bgchange(i){
+
+const b=document.getElementById('bgc');
+let data = ["red","green","violet","blue","black"];
+for(i=0;i<data.length;i++){
+   
+  b.style.backgroundColor= data[i];
+  alert("Background color is :"+data[i]);
+}
+}
+setInterval(function changebackground()
+{bgchange(0)});
+
+</script>
+</body>
+</html>
