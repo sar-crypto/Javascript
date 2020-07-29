@@ -1,3 +1,10 @@
+/*Question 1 :
+Explore and explain the various methods in console function
+Explain them
+Ex. console.log()
+console.warn().
+etc...*/
+
 //1. console.log()
 {
   var a = 10;
