@@ -1,3 +1,8 @@
+/*
+Question 2 :
+Write the difference between var, let and const with code examples.
+*/
+
 /*var: The scope of a variable defined with the keyword “var” is limited to the “function” within which it is defined. If it is defined outside any function, the scope of the variable is global.
   var is “function scoped”.*/ 
 {
